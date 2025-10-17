@@ -2,22 +2,24 @@
    @import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
    body {
       font-family: Arial, sans-serif;
-      background-color: #f9f5ff;
+      background-color: rgb(168, 45, 45);
       color: #333;
       margin: 0;
       padding: 20px;
-      background-image: url(/IMAGENES/1220EIOLIGrapes_SC--SPANISH.jpg);
+      /* background-image: url(/IMAGENES/1220EIOLIGrapes_SC--SPANISH.jpg); */
     }
-
+header img{
+    max-width: 7%;
+}
     header {
-      background-color: rgba(102, 255, 102, 0.3); /* verde uva chillón transparente */
+      background-color: rgba(0, 0, 0, 0.103); /* verde uva chillón transparente */
       padding: 20px;
       text-align: center;
       border-radius: 10px;
     }
 
     h1 {
-      color: rgb(232, 190, 248);
+      color: rgb(254, 252, 255);
         font-family: "Rubik Dirt", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -33,12 +35,14 @@
     }
 
     h2 {
-      color: #ecddfc; /* lila */
+      color: #f8f8f8; /* lila */
        font-family: "Rubik Dirt", system-ui;
   font-weight: 400;
   font-style: normal;
     }
-   
+   header nav a{
+    color: white;
+   }
 header nav ul {
  
     list-style: none;
@@ -59,7 +63,7 @@ header{
     padding: 15px 30px;
   }
   header nav a:hover {
-    background-color: rgba(102, 255, 102, 0.5);
+    background-color: rgba(77, 54, 54, 0.5);
     border-radius: 20px 10px 20px 10px;
 }
 

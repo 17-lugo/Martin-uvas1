@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
 body{
     color: #52353c;
    font-size: 28px;
     font-family: "Rubik Burned", system-ui;
   font-weight: 400;
   font-style: normal;
-    background-image: url(https://plus.unsplash.com/premium_photo-1671726992841-0d44a12ccacd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9uZG8lMjBuZWdybyUyMGdyaXMlQzMlQTFjZW98ZW58MHx8MHx8fDA%3D);
+  background-color: #c00909;
+    /* background-image: url(https://plus.unsplash.com/premium_photo-1671726992841-0d44a12ccacd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9uZG8lMjBuZWdybyUyMGdyaXMlQzMlQTFjZW98ZW58MHx8MHx8fDA%3D); */
     font: small-caps 100%/200% serif;
    padding: 4mm 1mm;
 color: #f8f8f8;
@@ -21,10 +23,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-image: url(../IMAGENES/resumen-del-mercado-global-de-la-uva-34369.jpg);
+    /* background-image: url(../IMAGENES/resumen-del-mercado-global-de-la-uva-34369.jpg); */
 }
 header img{
-    max-width: 5%;
+    max-width: 10%;
 }
 header nav ul {
     list-style: none;
@@ -35,14 +37,14 @@ header nav ul {
 }
 
 header nav a {
-    color: rgb(153 87 170);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 400;
     font-size: 30px;
      
 }
 header nav a:hover {
-    background-color: rgba(102, 255, 102, 0.5);
+    background-color: rgba(102, 255, 242, 0.5);
     border-radius: 20px 10px 20px 10px;
 }
 
@@ -98,7 +100,7 @@ header nav ul {
       text-align: center;
       margin: 0 auto;
       margin-top: 10px;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.171);
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -163,12 +165,11 @@ img{
     float: right;
 
 }
-p{  font-family: "Rubik Dirt", system-ui;
-  font-weight: 100;
-  font-style: normal;
-       list-style: none;
-       color: whitesmoke;
-       float: right;
+p{      font-family: "Crafty Girls", cursive;
+     font-weight: 400;
+     font-style: normal;
+     color: rgb(255, 255, 255);
+
 }
 iframe{
   margin-left: 200px;

@@ -1,0 +1,129 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dorsa&family=Rubik+Dirt&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap');
+
+ body {
+     font-family: Arial, sans-serif;
+     background-color: #ad2c2c;
+     margin: 0;
+     padding: 20px;
+ }
+
+ h1 {
+     /* text-align: left; */
+     color: rgb(255, 255, 255);
+     list-style: none;
+     gap: 15px;
+     margin: 0;
+     padding: 0;
+     font-family: "Rubik Dirt", system-ui;
+ }
+
+ .galeria {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 15px;
+     padding: 20px;
+     max-width: 1200px;
+     margin: auto;
+ }
+ h2{
+     color: rgb(58, 24, 9);
+     list-style: none;
+     gap: 15px;
+     margin: 0;
+     padding: 0;
+     font-family: "Rubik Dirt", system-ui;
+
+ }
+
+ .galeria img {
+     width: 100%;
+     height: auto;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     transition: transform 0.3s ease;
+ }
+ header img{
+    max-width: 7%; 
+}
+
+ .galeria img:hover {
+     transform: scale(1.05);
+ }
+
+ .caja-inferior {
+     margin: 30px auto;
+     max-width: 800px;
+     background-color: #ffffff80;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     text-align: center;
+ }
+
+ .caja-inferior h2 {
+     margin-top: 0;
+     color: #333;
+ }
+
+ .caja-inferior p {
+     font-family: "Crafty Girls", cursive;
+     font-weight: 400;
+     font-style: normal;
+     color: rgb(154, 37, 189);
+
+ }
+ header nav a{
+    color: white;
+   }
+
+ header nav ul {
+     list-style: none;
+     display: flex;
+     gap: 15px;
+     margin: 0;
+     padding: 0;
+     font-family: "Rubik Dirt", system-ui;
+     font-weight: 400;
+     font-style: normal;
+ }
+ ul :hover{
+    transform: scale(1.1);
+    filter: none;
+    transition: all 0.3 ease-in-out;
+
+}
+header{
+    background-color: #490e0e13;
+    color: rgb(19, 137, 141);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  .lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.cerrar {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
